@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-menu {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navbar{
+    background-color: black;
+}
+
+/* Center the caption vertically */
+.carousel-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100%;
+  }
+.jumbotron{
+    background: #201f1f;
+    color: white;
+}
+.Reserve{
+    background-color: rgb(255, 255, 255);
+    padding: 60px 40px;
+    margin:60px;
+    text-align: center;
+    height: 450px;
+}
+.card-header{
+    background-color: #2d2d2d;
+}
+
+.sec5{
+    height: 50vh;
+    background-image: url(../images/10.png);
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.media:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.sec6{
+    height: 50vh;
+    background-image: url(../images/10.png);
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.div1{
+    background-color: #2d2d2d;
+    width: 200px;
+    height: 200px;
+    margin-left: 60px ;
+}
+.chef{
+    width: 350px;
+    height: 400px;
+    border: 2px solid rgb(197, 197, 197);
+    border-radius: 12px;
+    position: relative;
+
+}
+.theChefs{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;  
+    border-radius: 5px;
+}
+.chef:hover{
+    scale: 1.02;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 3px 4px 10px 3px rgba(255, 166, 0, 0.977);
+}
+.theChefs:hover{
+    opacity: 1;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.sec8{
+    height: 40vh;
+    background-image: url(../images/yummy.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.icon-box{
+    text-align: center;
+    border: 2px rgb(247, 247, 247) solid;
+    box-shadow: 2px 2px 2px rgba(193, 125, 0, 0.767);
+    cursor: pointer;
+}
+.footer{
+    background-color: #201f1f;
+    color: white;
+}
+.list:hover{
+    color: orange;
+}
+.social-icons {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+}  
+.social-icon {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    background-color: #000;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.social-icon:hover {
+    background-color: #ffffff;
+    transform: scale(1.1);
+    text-decoration: none;
+}  
